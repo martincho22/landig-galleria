@@ -7,7 +7,14 @@
   <!--boxicons-->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+
+  <!--SW Slider-->
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet">
+  
+  <!--cSS lOCAL-->
   <link rel="stylesheet" href="./assets/css/style.css">
+
   <title>Alquileres</title>
 </head>
 <body>
@@ -38,9 +45,43 @@
 <main>
 
   <section>
-    <article><img src="" alt="">articulo</article>
-    <article><img src="" alt="">articulo</article>
-    <article><img src="" alt="">articulo</article>
+    <article >
+      <div class="swiffy-slider slider-item-helper ">
+        <ul class="slider-container" style>
+          <li>
+            <div class="card border-0">
+                <div class="ratio ratio-1x1">
+                    <img src="./assets/img/casa_10.jpg" class="card-img-top" loading="lazy" alt="...">
+                </div>
+                <div class="card-body p-0 pt-2">
+                    <div class="d-flex">
+                        <h3 class="flex-grow-1 h5">LeBron 18</h3>
+                        <p class="px-2">$200</p>
+                    </div>
+                    <p class="card-text">Basketball Shoes</p>
+                </div>
+            </div>
+        </li>
+            <li><img src="./assets/img/casa_2.jpg" alt=""></li>
+            <li><img src="./assets/img/casa_3.jpg" alt=""></li>
+            <li><img src="./assets/img/casa_4.jpg" alt=""></li>
+            <li><img src="./assets/img/casa_5.jpg" alt=""></li>
+            <li><img src="./assets/img/casa_6.jpg" alt=""></li>
+            <li><img src="./assets/img/casa_7.jpg" alt=""></li>
+           
+        </ul>
+    
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+    
+        <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+        </div>
+    </div>
+    </article>
+   
     <article><img src="" alt="">articulo</article>
     <article><img src="" alt="">articulo</article>
     <article><img src="" alt="">articulo</article>
@@ -80,7 +121,7 @@
 <!--Hamburguesa-->
 <script src="./assets/js/hamburguesa.js"></script>
 <!--Slider-->
-<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script> -->
 
 
 
