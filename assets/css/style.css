@@ -182,11 +182,17 @@ main{
 
 
 .text_slide{
-  color: aliceblue;
-  background-color: rgba(53, 53, 54, 0.549);
-  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;  
+  font-weight: 400;
+  border-right: 1px solid rgb(10, 146, 231);
 }
 
+.back{
+  background-color: rgba(53, 53, 54, 0.549);
+  padding: 10px;
+}
 
 
 
