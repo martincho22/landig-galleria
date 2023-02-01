@@ -38,11 +38,9 @@ header{
   height: 250px;
 }
 
-
 .menu{
 height: 15vh; 
 }
-
 
 .toggle-menu{
     position: absolute;
@@ -51,9 +49,6 @@ height: 15vh;
     /* filter: invert(1); */
     z-index: 100;
 }
-
-
-
 
 .listado{
   display: flex;
@@ -87,14 +82,117 @@ li a, a:link, a:visited, a:active{
   color: rgb(252, 248, 247);
  }
 
-
-
-main{
- 
+main{ 
   grid-area: main;
   background-color: cornflowerblue;
-  margin-top: -110px;
 }
+
+/* Slider Imagenes*/
+#slide1{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/img/casa_1.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+  }
+
+#slide2{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/img/casa_2.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+}
+
+#slide3{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/img/casa_3.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+}
+
+#slide4{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/img/casa_4.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+}
+
+#slide5{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/img/casa_5.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#slide6{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/img/casa_6.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#slide7{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/img/casa_7.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+}
+
+#slide8{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/img/casa_8.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+}
+
+#slide9{
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/img/casa_9.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.text_slide{
+  color: aliceblue;
+  background-color: rgba(53, 53, 54, 0.549);
+  font-weight: 600;
+}
+
+
+
+
+
+
+
 
 footer{
   grid-area: footer;
