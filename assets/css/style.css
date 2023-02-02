@@ -84,7 +84,7 @@ li a, a:link, a:visited, a:active{
 
 main{ 
   grid-area: main;
-  background-color: cornflowerblue;
+  background-color: rgb(232, 234, 237);
 }
 
 /* Slider Imagenes*/
@@ -186,7 +186,7 @@ main{
   flex-direction: column;
   color: aliceblue;  
   font-weight: 400;
-  border-right: 1px solid rgb(10, 146, 231);
+  border-right: 5px solid rgb(10, 146, 231);
 }
 
 .back{
@@ -194,11 +194,26 @@ main{
   padding: 10px;
 }
 
+.title_slider{
+  margin: 10px;
+  color: chocolate;
 
+}
 
+.mas{
+  position: relative;
+    margin-left: 90%;
+    margin-top: -7%;
+    color: rgb(251, 251, 251);
 
+}
+.caracteristicas{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
 
-
+/*Iconografia*/
 
 footer{
   grid-area: footer;
